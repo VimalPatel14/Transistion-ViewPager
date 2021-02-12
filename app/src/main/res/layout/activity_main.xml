@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_30sdp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/slowBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SlowBackground" />
+
+    <Button
+        android:id="@+id/zoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="zoom" />
+
+    <Button
+        android:id="@+id/zoomStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="ZoomStack" />
+
+    <Button
+        android:id="@+id/cube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Cube" />
+
+    <Button
+        android:id="@+id/depth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Depth" />
+
+
+</LinearLayout>
